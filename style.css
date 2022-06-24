@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    text-align: center;
+    background-image: url(./Img/fundo.jpg);
+}
+/* Estilo do menu*/
+.menu ul{
+    margin-top: 20px;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    border-radius: 3px;
+    border: 1px solid rgb(104, 101, 101);
+    margin: 2px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #000;
+}
+.menu li a:hover{
+    background-color: rgb(56, 56, 56);
+}
+/* Termina o estilo do menu*/
+
+#minha-foto{
+    position: absolute;
+    max-width: 600px;
+    max-height: 350px;
+    border: 1px solid rgb(177, 174, 174);
+    height: auto;
+    width: auto;
+    border-radius: 60%;
+    left: 40%;
+    top: 200px;
+}
+
+.dados-inicial{
+    text-align: center ;
+    position: relative;
+    bottom: -26em;
+    color: #fff;
+    top: 500px;
+}
+.dados-inicial h1:hover{
+    color: rgb(241, 245, 7);
+}
+
+.nome{
+    text-align: left;
+    position: relative;
+    top: 40px;
+    left: 2%;
+}
+
+.sobrenome{
+    text-align: left;
+    position: relative;
+    top: 5px;
+}
+
+footer audio{
+    position: absolute;
+    top: 55em;
+    left: 35em;
+}
+
+@media screen and (max-width: 768px){
+    .menu li {
+        display: flex;
+    }
+}
+
+
